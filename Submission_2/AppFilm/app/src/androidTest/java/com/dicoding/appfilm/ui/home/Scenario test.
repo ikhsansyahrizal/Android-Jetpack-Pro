@@ -1,0 +1,48 @@
+Skenario Instrumental testing : 
+
+- loadMovie()
+1. Menampilkan tampilan dengan id "rv_movie", lakukan aksi cek apakah tampil
+2. Menampilkan tampilan dengan id "rv_movie", lakukan aksi scrool sebanyak jumlah data
+
+
+- fun loadDetailMovie()
+1. Menampilkan tampilan dengan id "rv_movie, lakukan aksi klik item dengan posisi 0
+2. Menampilkan tamilan dengan id "detailFilm", lakukan aksi cek apakah tampil
+
+3. Tampilan dengan id "img_poster", cek apakah tampil
+
+4. Tampilan dengan id "tv_title", cek apakah tampil
+5. Tampilan dengan id "tv_title", cek apakah menampilkan text yang sama dengan value dari variabel "movieTitle"
+
+6. Tampilan dengan id "tv_overview", cek apakah tampil
+7. Tampilan dengan id "tv_overview", cek apakah menampilkan text yang sama dengan value dari variabel "movieOverview"
+
+8. Tampilan dengan id "detailFilm", lakukan aksi swipe up layar
+9. Tampilan dengan id "floating_btn_share", lakukan aksi click
+
+
+- loadTvShow()
+1. Menampilkan tampilan dengan text "TV_SHOW", lakukan aksi klik pada text tersebut
+2. Menampilkan tampilan dengan id "rv_tvShow", lakukan aksi cek apakah tampil
+3. Menampilkan tampilan dengan id "rv_tvShow", lakukan aksi scrool sebanyak jumlah data
+
+
+- fun loadTvShow()
+1. Menampilkan tampilan dengan text "TV_SHOW", lakukan aksi klik pada text tersebut
+2. Menampilkan tampilan dengan id "rv_tvShow, lakukan aksi klik item dengan posisi 0
+3. Menampilkan tamilan dengan id "detailFilm", lakukan aksi cek apakah tampil
+
+4. Tampilan dengan id "img_poster", cek apakah tampil
+
+5. Tampilan dengan id "tv_title", cek apakah tampil
+6. Tampilan dengan id "tv_title", cek apakah menampilkan text yang sama dengan value dari variabel "tvSHowTitle"
+
+7. Tampilan dengan id "tv_overview", cek apakah tampil
+8. Tampilan dengan id "tv_overview", cek apakah menampilkan text yang sama dengan value dari variabel "tvShowOverview"
+
+9. Tampilan dengan id "detailFilm", lakukan aksi swipe up layar
+10. Tampilan dengan id "floating_btn_share", lakukan aksi click
+
+
+
+

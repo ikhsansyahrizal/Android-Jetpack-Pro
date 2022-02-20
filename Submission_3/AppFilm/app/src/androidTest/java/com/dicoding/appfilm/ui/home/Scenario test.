@@ -1,0 +1,89 @@
+Skenario Instrumental testing : 
+
+- loadMovie()
+1. Menampilkan tampilan dengan id "rv_movie", lakukan aksi cek apakah tampil
+2. Menampilkan tampilan dengan id "rv_movie", lakukan aksi scrool sebanyak jumlah data
+
+
+- fun loadDetailMovie()
+1. Menampilkan tampilan dengan id "rv_movie, lakukan aksi klik item dengan posisi 0
+2. Menampilkan tamilan dengan id "detailFilm", lakukan aksi cek apakah tampil
+
+3. Tampilan dengan id "img_poster", cek apakah tampil
+
+4. Tampilan dengan id "tv_title", cek apakah tampil
+5. Tampilan dengan id "tv_title", cek apakah menampilkan text yang sama dengan value dari variabel "movieTitle"
+
+6. Tampilan dengan id "tv_overview", cek apakah tampil
+7. Tampilan dengan id "tv_overview", cek apakah menampilkan text yang sama dengan value dari variabel "movieOverview"
+
+8. Tampilan dengan id "detailFilm", lakukan aksi swipe up layar
+9. Tampilan dengan id "floating_btn_share", lakukan aksi click
+
+
+- loadTvShow()
+1. Menampilkan tampilan dengan text "TV_SHOW", lakukan aksi klik pada text tersebut
+2. Menampilkan tampilan dengan id "rv_tvShow", lakukan aksi cek apakah tampil
+3. Menampilkan tampilan dengan id "rv_tvShow", lakukan aksi scrool sebanyak jumlah data
+
+
+- fun loadTvShow()
+1. Menampilkan tampilan dengan text "TV_SHOW", lakukan aksi klik pada text tersebut
+2. Menampilkan tampilan dengan id "rv_tvShow, lakukan aksi klik item dengan posisi 0
+3. Menampilkan tamilan dengan id "detailFilm", lakukan aksi cek apakah tampil
+
+4. Tampilan dengan id "img_poster", cek apakah tampil
+
+5. Tampilan dengan id "tv_title", cek apakah tampil
+6. Tampilan dengan id "tv_title", cek apakah menampilkan text yang sama dengan value dari variabel "tvSHowTitle"
+
+7. Tampilan dengan id "tv_overview", cek apakah tampil
+8. Tampilan dengan id "tv_overview", cek apakah menampilkan text yang sama dengan value dari variabel "tvShowOverview"
+
+9. Tampilan dengan id "detailFilm", lakukan aksi swipe up layar
+10. Tampilan dengan id "floating_btn_share", lakukan aksi click
+
+
+- fun loadFavMovie()
+1. Menampilkan tampilan dengan id "rv_movie", lakukan aksi apakah tampil
+2. Menampilkan tampilan dengan id "rv_movie", lakukan aksi scrool recylerview ke posisi jumlah data
+
+3. Menampilkan tampilan dengan id "rv_movie", lakukan aksi klik pada item ke-0
+
+
+4. Menampilkan tampilan detail movie, lakukan aksi klik tombol dengan id "fab_favorite"
+5. Menampilkan tampilan detail movie, lakukan aksi klik kembali
+
+6. Menampilkan tampilan home dengan id "rv_movie", lakukan aksi klik menu dengan id "favorite"
+7. Menampilkan tampilan favorit, lakukan aksi cek apakah tampil
+8. Menampilkan tampilan dengan id "rv_movies", lakukan aksi scrool recylerview ke posisi jumlah data
+
+9. Menampilkan tampilan dengan id "rv_movies", lakukan aksi klik pada item ke-0
+
+10. Menampilkan tampilan detail movie, lalu klil tombol dengan id "fab_favorite"
+11. Lakukan aksi klik tombol kembali
+12. Lakukan aksi klik tombol kembali
+13. Menampilkan tampilan home, lalu klik menu dengan id "favorite"
+
+
+- fun loadFavTvShow()
+1. Menampilkan tampilan home, pada tampilan dengan text dari id "string.tvShow" lakukan aksi klik
+2. Menampilkan tampilan dengan id "rv_tvShow", lakukan aksi cek apakah tampil
+3. Menampilkan tampilan dengan id "rv_tvShow", lakukan aksi scrool recylerview ke posisi jumlah data
+
+4. Menampilkan tampilan dengan id "rv_tvShow", lakukan aksi klik pada item ke-0
+
+5. Menampilkan tampilan detail tvShow, lakukan aksi klik tombol dengan id "fab_favorite"
+6. Menampilkan tampilan detail tvShow, lakukan aksi klik kembali
+
+7. Menampilkan tampilan home dengan id "rv_tvShow", lakukan aksi klik menu dengan id "favorite"
+8. Menampilkan tampilan favorit, pada tampilan dengan text dari id "string.tvShow" lakukan aksi klik
+8. Menampilkan tampilan favorit, lakukan aksi cek apakah tampil
+9. Menampilkan tampilan dengan id "rv_tv_shows", lakukan aksi scrool recylerview ke posisi jumlah data
+
+10. Menampilkan tampilan dengan id "rv_tv_shows", lakukan aksi klik pada item ke-0
+
+11. Menampilkan tampilan detail tvShow, lalu klil tombol dengan id "fab_favorite"
+12. Lakukan aksi klik tombol kembali
+13. Lakukan aksi klik tombol kembali
+14. Menampilkan tampilan home, lalu klik menu dengan id "favorite"

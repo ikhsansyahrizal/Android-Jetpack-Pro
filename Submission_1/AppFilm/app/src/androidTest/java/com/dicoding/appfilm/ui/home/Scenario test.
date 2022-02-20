@@ -1,0 +1,72 @@
+Skenario Instrumental testing : 
+
+- loadMovie()
+1. Menampilkan tampilan dengan id "rv_movie", lakukan aksi cek apakah tampil
+2. Menampilkan tampilan dengan id "rv_movie", lakukan aksi scrool sebanyak jumlah data
+
+
+- fun loadDetailMovie()
+1. Menampilkan tampilan dengan id "rv_movie, lakukan aksi klik item dengan posisi 0
+2. Menampilkan tamilan dengan id "detailFilm", lakukan aksi cek apakah tampil
+
+3. Tampilan dengan id "img_poster", cek apakah tampil
+
+4. Tampilan dengan id "tv_title", cek apakah tampil
+5. Tampilan dengan id "tv_title", cek apakah menampilkan text yang sama dengan value dari variabel "movieTitle"
+
+6. Tampilan dengan id "tv_release_date", cek apakah tampil
+7. Tampilan dengan id "tv_release_date", cek apakah menampilkan text yang sama dengan value dari variabel "movieRelease"
+
+8. Tampilan dengan id "tv_genre", cek apakah tampil
+9. Tampilan dengan id "tv_genre", cek apakah menampilkan text yang sama dengan value dari variabel "movieGenre"
+
+10. Tampilan dengan id "tv_duration", cek apakah tampil
+11. Tampilan dengan id "tv_duration", cek apakah menampilkan text yang sama dengan value dari variabel "movieDuration"
+
+12. Tampilan dengan id "tv_director", cek apakah tampil
+13. Tampilan dengan id "tv_director", cek apakah menampilkan text yang sama dengan value dari variabel "movieDirector"
+
+14. Tampilan dengan id "tv_overview", cek apakah tampil
+15. Tampilan dengan id "tv_overview", cek apakah menampilkan text yang sama dengan value dari variabel "movieOverview"
+
+16. Tampilan dengan id "detailFilm", lakukan aksi swipe up layar
+17. Tampilan dengan id "floating_btn_share", lakukan aksi click
+
+
+- loadTvShow()
+1. Menampilkan tampilan dengan text "TV_SHOW", lakukan aksi klik pada text tersebut
+2. Menampilkan tampilan dengan id "rv_tvShow", lakukan aksi cek apakah tampil
+3. Menampilkan tampilan dengan id "rv_tvShow", lakukan aksi scrool sebanyak jumlah data
+
+
+- fun loadTvShow()
+1. Menampilkan tampilan dengan text "TV_SHOW", lakukan aksi klik pada text tersebut
+2. Menampilkan tampilan dengan id "rv_tvShow, lakukan aksi klik item dengan posisi 0
+3. Menampilkan tamilan dengan id "detailFilm", lakukan aksi cek apakah tampil
+
+4. Tampilan dengan id "img_poster", cek apakah tampil
+
+5. Tampilan dengan id "tv_title", cek apakah tampil
+6. Tampilan dengan id "tv_title", cek apakah menampilkan text yang sama dengan value dari variabel "tvSHowTitle"
+
+7. Tampilan dengan id "tv_release_date", cek apakah tampil
+8. Tampilan dengan id "tv_release_date", cek apakah menampilkan text yang sama dengan value dari variabel "tvShowRelease"
+
+9. Tampilan dengan id "tv_genre", cek apakah tampil
+10. Tampilan dengan id "tv_genre", cek apakah menampilkan text yang sama dengan value dari variabel "tvShowGenre"
+
+11. Tampilan dengan id "tv_duration", cek apakah tampil
+12. Tampilan dengan id "tv_duration", cek apakah menampilkan text yang sama dengan value dari variabel "tvShowDuration"
+
+13. Tampilan dengan id "tv_director", cek apakah tampil
+14. Tampilan dengan id "tv_director", cek apakah menampilkan text yang sama dengan value dari variabel "tvShowDirector"
+
+15. Tampilan dengan id "tv_overview", cek apakah tampil
+16. Tampilan dengan id "tv_overview", cek apakah menampilkan text yang sama dengan value dari variabel "tvShowOverview"
+
+17. Tampilan dengan id "detailFilm", lakukan aksi swipe up layar
+18. Tampilan dengan id "floating_btn_share", lakukan aksi click
+
+
+
+
